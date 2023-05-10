@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed to universal header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ h1 {
     color: #d9dcd6;
 }
 
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -64,7 +64,9 @@ h3 {
     text-align: center;
     color: white;
 }
-
+h4 {
+    font-size: 20px;
+}
 .hero {
     height: 800px;
     width: 100%;
@@ -83,13 +85,14 @@ h3 {
     float: right;
     margin-left: 25px;
 }
-
+/* changed to a .content class to remove repeating code */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* changed to a universal aside  */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +104,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* Removed repeating code inside the aside part of the code */
 .benefit-box {
     margin-bottom: 32px;
     color: #ffffff;
@@ -112,7 +116,7 @@ aside img{
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Removed repeating code in the article section of the code  */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -126,14 +130,17 @@ article {
 article img {
     max-height: 200px;
 }
-
-.footer {
+/* changed to a universal footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h4 {
+/* .footer h4 {
     font-size: 20px;
-}
+} */
+/* h4 {
+    font-size: 20px;
+} */
